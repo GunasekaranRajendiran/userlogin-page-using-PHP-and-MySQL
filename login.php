@@ -10,7 +10,8 @@
         $count = mysqli_num_rows($result);  
         
         if($count == 1){  
-            echo"success";
+           /* echo"success"; */
+            header("Location: welcom.php");
         }  
         else{  
             echo  '<script>
